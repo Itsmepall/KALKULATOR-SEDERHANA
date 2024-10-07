@@ -1,4 +1,3 @@
-print ("CREATE BY : NOPAL")
 def kalkulator():
 #MENU APLIKASI
     print ("I--------------------------------I")
@@ -16,6 +15,9 @@ def kalkulator():
     print ("I                                I")
     print ("I  0. EXIT                       I")
     print ("I--------------------------------I")
+    print ("I              CREATE BY : NOPAL I")
+    print ("I--------------------------------I")
+
     while True:
         pilih = input("Masukan Operasi (1,2,3,4,5,6,7,0) : ")
         if pilih.lower() == '0':
